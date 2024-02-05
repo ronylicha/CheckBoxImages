@@ -2,9 +2,9 @@
 
 namespace ronylicha\CheckBoxImages\Actions;
 
-use Filament\Forms\Components\Checkbox;
+use Filament\Forms\Components\CheckboxList;
 
-class CheckBoxImages extends Checkbox
+class CheckBoxImages extends CheckboxList
 {
     protected string $view = 'checkboximages::components.checkbox-button-image';
 
